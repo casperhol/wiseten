@@ -6,11 +6,6 @@ import ReferralProgram from "./ReferralProgram";
 import HowitWorks from "./HowitWorks";
 
 
-const items = [
-    {label: "Home", href: "/"},
-    {label: "How it Works", href: "home/how-it-works"}
-];
-
 const Home = () => {
   return (
     <div className="w-full">

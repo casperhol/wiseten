@@ -34,7 +34,7 @@ const RealEstateGrid: React.FC = () => {
           rent for some time. Currently, this demand for single-family rentals (SFRs) has helped drive a level of asset
           price appreciation uncommon in the world of real estate. By purchasing these homes in volume directly from
           homebuilders and leasing them up ourselves as stabilized communities, we believe we can get better prices—and
-          returns—than buying the "finished product."
+          returns—than buying the &quot;finished product.&quot;
         </p>
       </div>
 

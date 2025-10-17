@@ -42,10 +42,10 @@ const GoalsSection: React.FC = () => {
           We’re here to change that.
         </p>
         <p className="mb-6">
-          Our platform gives you access to a carefully selected marketplace of private market investment opportunities in commercial real estate. Since 2012, we've helped tens of thousands of investors discover opportunities that align with their financial goals, with billions invested in over 3100+ projects.
+          Our platform gives you access to a carefully selected marketplace of private market investment opportunities in commercial real estate. Since 2012, we&apos;ve helped tens of thousands of investors discover opportunities that align with their financial goals, with billions invested in over 3100+ projects.
         </p>
         <p>
-          But we don’t stop at offering access. We provide advanced tools, research, and insights to help investors confidently explore these exclusive opportunities. We’re dedicated to delivering an exceptional experience for our members every step of the way.
+          But we don’t stop at offering access. We provide advanced tools, research, and insights to help investors confidently explore these exclusive opportunities. We&apos;re dedicated to delivering an exceptional experience for our members every step of the way.
         </p>
       </div>
 

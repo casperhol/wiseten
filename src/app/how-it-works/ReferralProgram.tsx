@@ -3,13 +3,7 @@ import achieversImg from "@/app/assets/img/Rectangle 134.jpg";
 import innovatorsImg from "@/app/assets/img/Rectangle 136.jpg";
 import visionariesImg from "@/app/assets/img/Rectangle 138.jpg";
 import ImageComponent from "../components/formFields/ImageComponent";
-import { StaticImageData } from "next/image";
 
-interface imageProps {
-  title: string;
-  description: string;
-  image: string | StaticImageData;
-}
 
 const tiers = [
   {
