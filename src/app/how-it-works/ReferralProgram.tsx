@@ -74,5 +74,4 @@ const ReferralProgram: React.FC = () => {
     </section>
   );
 };
-
 export default ReferralProgram;
