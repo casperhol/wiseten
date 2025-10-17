@@ -46,7 +46,7 @@ const HistorySection: React.FC = () => {
             replicating its trademark approach to financing with discipline, speed, innovation and integrity.
           </p>
           <p className="text-gray-700">
-            Today, thousands of investors rely on the Firm's opportunistic debt and equity strategies to provide
+            Today, thousands of investors rely on the Firm&apos;s opportunistic debt and equity strategies to provide
             consistently strong risk-adjusted returns and portfolio diversification.
           </p>
         </div>

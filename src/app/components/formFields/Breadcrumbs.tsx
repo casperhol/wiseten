@@ -2,7 +2,6 @@
 import React from "react";
 import Link from "next/link";
 import { StaticImageData } from "next/image";
-import bgImg from "@/app/assets/img/Rectangle 98.jpg";
 
 
 
@@ -17,16 +16,13 @@ interface BreadcrumbProps {
 }
 
 const Breadcrumb: React.FC<BreadcrumbProps> = ({ items, backgroundImage }) => {
-  const bgUrl =
-    typeof backgroundImage === "string | StaticImageData"
-      ? backgroundImage
-      : backgroundImage?.src;
+  
 
   return (
     <div
       className="relative bg-cover bg-center py-8 px-4 text-white"
       style={{
-        backgroundImage: bgUrl ? `url(${bgUrl})` : undefined,
+        backgroundImage: backgroundImage ? `url(${backgroundImage})` : undefined,
       }}
     >
       <div className="absolute inset-0 bg-[#013220] bg-opacity-75"></div>
