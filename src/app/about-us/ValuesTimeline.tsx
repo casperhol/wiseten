@@ -1,5 +1,3 @@
-import { FC } from "react";
-
 const values = [
   {
     title: "Trust",
