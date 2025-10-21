@@ -1,6 +1,6 @@
 import React from "react";
 
-const ConorpMissions = () => {
+const WisetenMissions = () => {
   const items = [
     {
       title: "Research & Development",
@@ -54,4 +54,4 @@ const ConorpMissions = () => {
   );
 };
 
-export default ConorpMissions;
+export default WisetenMissions;

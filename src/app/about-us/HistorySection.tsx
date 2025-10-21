@@ -34,18 +34,18 @@ const grids: Grid[] = [
 const HistorySection: React.FC = () => {
   return (
     <section className="bg-white py-16 px-4 md:px-20">
-      <h2 className="text-center text-3xl font-bold mb-8">HISTORY</h2>
+      <h2 className="text-center text-3xl font-bold mb-8 text-black">HISTORY</h2>
 
       <div className="md:flex md:items-start md:justify-between gap-12">
         {/* Left Text Section */}
         <div className="md:w-1/2 py-10 pt-30">
-          <h3 className="text-xl font-semibold mb-4">A STORY OF GROWTH & MOMENTUM</h3>
-          <p className="text-gray-700 mb-6">
-            For over 8 years, Conorp Horizon Trust has strategically developed its footprint across key North
+          <h3 className="text-xl font-semibold mb-4 text-black">A STORY OF GROWTH & MOMENTUM</h3>
+          <p className="text-black mb-6">
+            For over 8 years, Wiseten Horizon Trust has strategically developed its footprint across key North
             American, Australia, New Zealand and across Europe commercial and residential real estate markets,
             replicating its trademark approach to financing with discipline, speed, innovation and integrity.
           </p>
-          <p className="text-gray-700">
+          <p className="text-black">
             Today, thousands of investors rely on the Firm&apos;s opportunistic debt and equity strategies to provide
             consistently strong risk-adjusted returns and portfolio diversification.
           </p>

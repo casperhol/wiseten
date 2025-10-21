@@ -1,5 +1,3 @@
-import { FC } from "react";
-
 const values = [
   {
     title: "Trust",
@@ -23,10 +21,10 @@ const values = [
   },
 ];
 
-const ValuesTimeline: FC = () => {
+const ValuesTimeline = () => {
   return (
     <div className="max-w-5xl mx-auto px-4 py-12">
-      <h2 className="text-2xl md:text-xl font-semibold mb-8 text-center text-gray-900">
+      <h2 className="text-2xl md:text-xl font-semibold mb-8 text-center text-white">
         Our culture drives our success. Our values are the shared beliefs we bring to our professional and personal conduct every day. They are foundational to the strength of our business.
       </h2>
 
@@ -36,7 +34,7 @@ const ValuesTimeline: FC = () => {
             <div className="bg-[#FFC116] w-6 h-6 rounded-full translate-y-3 -translate-x-[53px] justify-center"></div>
 
             <div>
-              <p className="text-sm text-gray-800 leading-relaxed">{value.description}</p>
+              <p className="text-sm text-[#FFF] leading-relaxed">{value.description}</p>
             </div>
           </div>
         ))}

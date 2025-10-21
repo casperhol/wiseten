@@ -4,14 +4,14 @@ import bottomImg from "@/app/assets/img/Image 17 1.jpg";
 import piechartImg from "@/app/assets/img/pie chart 2 1.jpg";
 
 
-const ConorpFinancialProducts = () => {
+const WisetenFinancialProducts = () => {
   return (
     <section className="bg-white py-2 px-6 lg:px-16">
       <div className="grid lg:grid-cols-2 gap-5 items-start">
         {/* Left Text Content */}
         <div className="justify-center pt-20">
           <h2 className="text-2xl lg:text-3xl font-semibold text-gray-800 mb-4">
-            Financial Products offered by Conorp Horizon
+            Financial Products offered by Wiseten Horizon
           </h2>
           <p className="text-gray-600 mb-6">
             We offer investors four different financial products to choose from in
@@ -19,19 +19,19 @@ const ConorpFinancialProducts = () => {
             includes:
           </p>
           <ul className="space-y-3">
-            <li className="flex items-center">
+            <li className="flex items-center text-black">
               <span className="w-4 h-4 bg-cyan-700 rounded-full mr-3"></span>
               <span>Basic Equity (Long/Short Asset)</span>
             </li>
-            <li className="flex items-center">
+            <li className="flex items-center text-black">
               <span className="w-4 h-4 bg-pink-600 rounded-full mr-3"></span>
               <span>Dual Arbitrage (Residential and Commercial Assets)</span>
             </li>
-            <li className="flex items-center">
+            <li className="flex items-center text-black">
               <span className="w-4 h-4 bg-blue-400 rounded-full mr-3"></span>
               <span>Diversified Products (Digital Portfolio Assets)</span>
             </li>
-            <li className="flex items-center">
+            <li className="flex items-center text-black">
               <span className="w-4 h-4 bg-yellow-400 rounded-full mr-3"></span>
               <span>Macro Products (Global Portfolio Assets)</span>
             </li>
@@ -72,4 +72,4 @@ const ConorpFinancialProducts = () => {
   );
 };
 
-export default ConorpFinancialProducts;
+export default WisetenFinancialProducts;

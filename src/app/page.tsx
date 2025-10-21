@@ -1,20 +1,19 @@
 import RealEstateSlider from "./components/RealEstateSlider";
 import RealEstateSection from "./components/RealEstateSection";
 import Affiliates from "./components/Affiliates";
-import AboutConorp from "./components/AboutConorp";
-import Footer from "./components/Footer";
+import AboutWiseten from "./components/AboutWiseten";
 import PropertyJourneyPage from "./components/PropertyJourneyPage";
+import GuestLayout from "./components/layouts/guest-layouts";
 
 const Home = () => {
   return (
-    <div className="w-full">
+    <GuestLayout>
       <RealEstateSlider />
       <RealEstateSection />
       <Affiliates />
-      <AboutConorp />
+      <AboutWiseten />
       <PropertyJourneyPage />
-      <Footer />
-    </div>
+    </GuestLayout>
   );
 }
 

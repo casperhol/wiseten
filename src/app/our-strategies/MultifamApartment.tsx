@@ -29,7 +29,7 @@ const MultifamApartment: React.FC = () => {
       <div className="mt-20 text-center mb-10">
         <h3 className="text-2xl md:text-3xl font-bold mb-2">Multifamily Apartment.</h3>
         <p className="text-lg font-medium mb-4">7311 Residential Units</p>
-        <p className="text-sm text-gray-600 max-w-4xl mx-auto">
+        <p className="text-sm text-[#FFF] max-w-4xl mx-auto">
           A variety of trends have now led to a good share of the population in need of more living space which they can
           rent for some time. Currently, this demand for single-family rentals (SFRs) has helped drive a level of asset
           price appreciation uncommon in the world of real estate. By purchasing these homes in volume directly from

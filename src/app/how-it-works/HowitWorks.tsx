@@ -23,7 +23,7 @@ const HowitWorks: React.FC = () => {
                 {/* Text Section with yellow background */}
                 <div className="md:w-1/2 bg-white px-6 py-6 flex flex-col justify-center">
                     <h2 className="text-2xl md:text-3xl font-semibold mb-4">
-                        How does Conorp Horizon handle market down turns?
+                        How does Wiseten Horizon handle market down turns?
                     </h2>
                     <p className="text-sm md:text-base leading-relaxed">
                         Although real estate portfolios don’t have down turns easily, 
@@ -41,10 +41,10 @@ const HowitWorks: React.FC = () => {
                 {/* Text Section with yellow background */}
                 <div className="md:w-1/2 px-6 py-6 flex flex-col justify-center">
                     <h2 className="text-2xl md:text-3xl font-semibold mb-4">
-                        What is the difference between Conorp Horizon and other traditional investment companies?
+                        What is the difference between Wiseten Horizon and other traditional investment companies?
                     </h2>
                     <p className="text-sm md:text-base leading-relaxed">
-                        Unlike other traditional investment companies, Conorp Horizon specializes in  
+                        Unlike other traditional investment companies, Wiseten Horizon specializes in  
                         real estate and digital assets (Blockchain ) investments, focusing on the 
                         unique opportunities and risk of digital economy.
                     </p>

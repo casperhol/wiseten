@@ -10,40 +10,40 @@ import housepoolImg from "@/app/assets/img/Image-5-1.jpg";
 
 const faqs = [
   {
-    question: 'Who is Conorp Horizon?',
-    answer: 'At Conorp Horizon Trust, our goal is to inspire and empower our members to reach their financial ambitions. Alternative investments, especially in commercial and residential real estate, have historically been an effective way to grow wealth. Digital assets management and consulting firm that offers wide range of financial services.'
+    question: 'Who is Wiseten Horizon?',
+    answer: 'At Wiseten Horizon Trust, our goal is to inspire and empower our members to reach their financial ambitions. Alternative investments, especially in commercial and residential real estate, have historically been an effective way to grow wealth. Digital assets management and consulting firm that offers wide range of financial services.'
   },
   {
-    question: 'Why Should I invest in Conorp Horizon?',
-    answer: 'Investing in Conorp Horizon gives you access to diversified portfolios in alternative investments, which are historically resilient and profitable.'
+    question: 'Why Should I invest in Wiseten Horizon?',
+    answer: 'Investing in Wiseten Horizon gives you access to diversified portfolios in alternative investments, which are historically resilient and profitable.'
   },
   {
-    question: 'How does Conorp Horizon manage its investors funds?',
+    question: 'How does Wiseten Horizon manage its investors funds?',
     answer: 'Funds are professionally managed by financial experts using a mix of real estate, digital assets, and other alternative investments.'
   },
   {
-    question: 'Is Conorp Horizon registered firm?',
-    answer: 'Yes, Conorp Horizon is a registered and regulated financial institution adhering to all legal and compliance standards.'
+    question: 'Is Wiseten Horizon registered firm?',
+    answer: 'Yes, Wiseten Horizon is a registered and regulated financial institution adhering to all legal and compliance standards.'
   },
   {
-    question: 'What kind of financial advisory services does Conorp Horizon provide?',
+    question: 'What kind of financial advisory services does Wiseten Horizon provide?',
     answer: 'We provide personalized financial planning, wealth management, and retirement planning solutions.'
   },
   {
-    question: 'Does Conorp Horizon offer investment planning?',
+    question: 'Does Wiseten Horizon offer investment planning?',
     answer: 'Yes, we offer custom-tailored investment plans to help meet your financial goals.'
   },
   {
-    question: 'How does Conorp Horizon approach risk management?',
+    question: 'How does Wiseten Horizon approach risk management?',
     answer: 'Risk is mitigated through diversification, regular reviews, and proactive strategies aligned with market trends.'
   },
   {
-    question: 'Does Conorp Horizon offer investors education?',
+    question: 'Does Wiseten Horizon offer investors education?',
     answer: 'Absolutely. We provide workshops, webinars, and resource materials to help you become a more informed investor.'
   }
 ];
 
-const ConorpFAQ = () => {
+const WisetenFAQ = () => {
   const [openIndex, setOpenIndex] = useState<number | null>(null);
 
   const toggleFAQ = (index: number) => {
@@ -60,7 +60,7 @@ const ConorpFAQ = () => {
               <div key={index} className="border border-gray-200 rounded-md overflow-hidden">
                 <button
                   onClick={() => toggleFAQ(index)}
-                  className="w-full flex justify-between items-center px-4 py-3 font-medium bg-gray-100 hover:bg-gray-200 transition-colors duration-200"
+                  className="w-full flex justify-between items-center text-black px-4 py-3 font-medium bg-gray-100 hover:bg-gray-200 transition-colors duration-200"
                 >
                   <span>{faq.question}</span>
                   <svg
@@ -121,4 +121,4 @@ const ConorpFAQ = () => {
   );
 };
 
-export default ConorpFAQ;
+export default WisetenFAQ;
