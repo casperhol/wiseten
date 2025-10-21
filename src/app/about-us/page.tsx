@@ -1,3 +1,4 @@
+import GuestLayout from "../components/layouts/guest-layouts";
 import AboutUsHead from "./AboutUsHead";
 import GoalsSection from "./GoalSection";
 import HistorySection from "./HistorySection";
@@ -7,14 +8,14 @@ import ValuesTimeline from "./ValuesTimeline";
 
 const AboutUs = () => {
   return (
-    <div className="w-full">
+    <GuestLayout>
       <AboutUsHead />
       <HistorySection />
       <GoalsSection />
       <OurGoals />
       <MissionVisionValues />
       <ValuesTimeline />
-    </div>
+    </GuestLayout>
   );
 }
 

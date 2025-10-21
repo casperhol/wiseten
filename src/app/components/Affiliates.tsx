@@ -6,7 +6,7 @@ import affiliateImg from "@/app/assets/img/image-39-1.jpg";
 const Affiliates: React.FC = () => {
   return (
     <section className="py-12 bg-white text-center">
-      <h2 className="text-2xl font-semibold mb-8">Our Affiliates</h2>
+      <h2 className="text-2xl font-semibold mb-8 text-black">Our Affiliates</h2>
       <div className="flex justify-center">
         <div className="relative w-full max-w-4xl h-auto">
           <ImageComponent

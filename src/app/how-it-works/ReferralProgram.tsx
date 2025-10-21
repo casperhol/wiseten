@@ -29,11 +29,11 @@ const tiers = [
 const ReferralProgram: React.FC = () => {
   return (
     <section className="pb-16 px-6 md:px-12 lg:px-15 bg-white">
-      <h2 className="text-3xl font-semibold text-center mb-4">
-        Conorp Horizon Referral Program
+      <h2 className="text-3xl font-semibold text-center mb-4 text-black">
+        Wiseten Horizon Referral Program
       </h2>
       <p className="text-center text-gray-600 max-w-6xl mx-auto mb-12">
-        Conorp Horizon offers referrals and incentives programs, rewarding
+        Wiseten Horizon offers referrals and incentives programs, rewarding
         investors who refer others to their service. You will receive a referral
         link that you can share with your friends, family, business partners and
         colleagues. Every time the referees invest, the referrer receives

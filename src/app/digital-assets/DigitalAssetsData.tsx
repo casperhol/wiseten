@@ -7,7 +7,7 @@ const DigitalAssetsData: React.FC = () => {
   return (
     <>
         <section className="py-16 px-6 md:px-12 lg:px-20 bg-white">
-            <h2 className="text-3xl font-semibold text-center mb-4">
+            <h2 className="text-3xl font-semibold text-center mb-4 text-black">
                 INVESTING IN TODAY TO BUILD A BETTER TOMORROW
             </h2>
             <p className="text-center text-gray-600 max-w-6xl mx-auto mb-12">
@@ -27,7 +27,7 @@ const DigitalAssetsData: React.FC = () => {
                                 Building Financial Products for the Modern World
                             </h2>
                             <p className="text-sm md:text-base leading-relaxed py-2 text-start">
-                                Conorp Horizon, the innovation division of Wiseten, harnesses the 
+                                Wiseten Horizon, the innovation division of Wiseten, harnesses the 
                                 transformative power of blockchain and digital assets in its efforts to 
                                 help develop a more dynamic, democratized financial system.
                             </p>

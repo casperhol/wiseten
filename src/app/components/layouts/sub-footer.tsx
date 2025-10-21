@@ -21,7 +21,7 @@ const SubFooter: FC = () => {
         <div>
           <h2 className="font-semibold mb-4 text-md">Contact Us</h2>
           <p className="text-gray-700 font-medium mb-1 pb-5">Email</p>
-          <p className="text-gray-600">info@conorp.com</p>
+          <p className="text-gray-600">info@wiseten.com</p>
         </div>
 
         {/* Newsletter */}
@@ -42,7 +42,7 @@ const SubFooter: FC = () => {
 
       {/* Footer Bottom */}
       <div className="flex flex-col md:flex-row justify-between items-center text-xs text-gray-500 border-t border-gray-200 pt-6">
-        <p className="mb-4 md:mb-0">Copyright © 2023 Conorp Horizon. All Rights Reserved.</p>
+        <p className="mb-4 md:mb-0">Copyright © 2023 Wiseten Horizon. All Rights Reserved.</p>
         <div className="flex gap-6">
           <a href="#">Privacy</a>
           <a href="#">Terms and Condition</a>

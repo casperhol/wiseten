@@ -8,7 +8,7 @@ const OurStrategies = () => {
       <div className="grid md:grid-cols-2 gap-10 items-center">
         <div>
           <h3 className="text-xl font-semibold mb-4">Designed to harness the market&apos;s potential</h3>
-          <p className="text-gray-700 mb-6 max-w-md">
+          <p className="text-[#FFF] mb-6 max-w-md">
             By employing a combination of strategies, we aim to build well-rounded, resilient portfolios targeted to
             deliver consistently strong results based on our clients&apos; goals and appetite for risk.
           </p>

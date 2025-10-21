@@ -44,11 +44,11 @@ const features: Feature[] = [
   },
 ];
 
-const AboutConorp = () => {
+const AboutWiseten = () => {
   return (
     <section className="bg-teal-100 py-16 px-4 md:px-12 lg:px-24">
       <h2 className="text-3xl md:text-4xl font-semibold text-center text-gray-800 mb-12">
-        Why Conorp Horizon Trust ?
+        Why Wiseten Horizon Trust ?
       </h2>
       <div className="grid md:grid-cols-2 gap-8 text-center px-6">
         {features.map((feature, index) => (
@@ -78,4 +78,4 @@ const AboutConorp = () => {
   );
 }
 
-export default AboutConorp;
+export default AboutWiseten;

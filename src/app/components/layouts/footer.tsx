@@ -1,16 +1,10 @@
-import { FC } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faFacebookF,
-  faInstagram,
-  faXTwitter,
-  faTelegram
-} from "@fortawesome/free-brands-svg-icons";
+import {faFacebookF, faInstagram, faXTwitter, faTelegram} from "@fortawesome/free-brands-svg-icons";
+import logo from "../../../../public/images/gold_white.png"
+import ImageComponent from "@/app/components/formFields/ImageComponent";
 
-import ImageComponent from "./formFields/ImageComponent";
-import brandlogo from "@/app/assets/img/conorp_logo.png";
 
-const Footer: FC = () => {
+const Footer = () => {
   return (
     <footer className="bg-green-950 text-white py-10 px-6 md:px-20">
       <div className="flex flex-col md:flex-row justify-between gap-10 mb-10">
@@ -18,15 +12,15 @@ const Footer: FC = () => {
         <div className="max-w-xs space-x-5">
           <div className="flex items-center gap-2 mb-4">
             <ImageComponent
-              src={brandlogo}
-              alt="Conorp Horizon Logo"
-              width={40}
-              height={40}
-              className="w-10 h-10"
+              src={logo}
+              alt="Wiseten Horizon Logo"
+              width={200}
+              height={140}
+              className=""
             />
           </div>
           <p className="text-sm text-gray-300 leading-relaxed">
-            conorp horizon assists investors in developing long-term investment plans,
+            wiseten horizon assists investors in developing long-term investment plans,
             aligning with their financial goals and minimum risk tolerance
           </p>
 
@@ -50,11 +44,12 @@ const Footer: FC = () => {
         {/* Footer Links */}
         <div className="grid grid-cols-2 md:grid-cols-3 gap-6 text-sm">
           <div className="pb-5">
-            <h2 className="font-semibold mb-3">Contact Us</h2>
+            <h2 className="font-semibold mb-3">Quick Links</h2>
             <ul className="space-y-10 text-gray-300">
-              <li><a href="#">Latest News</a></li>
-              <li><a href="#">Our Financial Investment</a></li>
-              <li><a href="#">Available Properties</a></li>
+              <li><a href="/digital-assets">Digital Assets</a></li>
+              <li><a href="/our-strategies">Our Strategies</a></li>
+              <li><a href="/how-it-works">How It Works</a></li>
+             
             </ul>
           </div>
 
@@ -72,8 +67,8 @@ const Footer: FC = () => {
             <h2 className="font-semibold mb-3">Our Team.</h2>
             <ul className="space-y-10 text-gray-300">
               <li><a href="#">Board of Directors</a></li>
-              <li><a href="#">Careers</a></li>
-              <li><a href="#">Contact Us</a></li>
+              <li><a href="/about-us">About Us</a></li>
+              <li><a href="/contact-us">Contact Us</a></li>
               <li><a href="#">Location</a></li>
             </ul>
           </div>
@@ -82,7 +77,7 @@ const Footer: FC = () => {
 
       <hr className="border-gray-700 mb-6" />
       <p className="text-center text-xs text-gray-400">
-        Copyright © 2023 Conorp Horizon Trust. All Rights Reserved.
+        Copyright © 2023 Wiseten Horizon Trust. All Rights Reserved.
       </p>
     </footer>
   );

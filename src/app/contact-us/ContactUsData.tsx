@@ -34,7 +34,7 @@ const ContactUsData = () => {
             </div>
             <div>
               <p className="font-semibold">E-mail Address</p>
-              <p className="text-sm">conorpenhorizon@gmail.com</p>
+              <p className="text-sm">wisetenenhorizon@gmail.com</p>
             </div>
           </div>
 

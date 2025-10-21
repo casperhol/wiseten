@@ -4,6 +4,7 @@ import ImageComponent from "./formFields/ImageComponent";
 import Image1 from "@/app/assets/img/Image-1-10.jpg";
 import Image2 from "@/app/assets/img/Image-5-1.jpg";
 import Image3 from "@/app/assets/img/Image-11-3.jpg";
+import Link from "next/link";
 
 
 interface Property {
@@ -57,24 +58,24 @@ const PropertyCard: React.FC<Property> = ({ title, image, alt, main, description
         ))}
       </span>
     </div>
-    <h2 className="text-lg font-bold text-gray-800">{main}</h2>
-    <p className="text-sm text-gray-600">{description}</p>
+    <h2 className="text-lg font-bold text-[#FFF]">{main}</h2>
+    <p className="text-sm text-[#FFF]">{description}</p>
   </div>
 );
 
 const PropertyJourneyPage: React.FC = () => {
   return (
     <div className="px-4 py-12 md:px-12 lg:px-24">
-      <h1 className="text-2xl md:text-4xl font-semibold text-center mb-12">
-        Start Your Journey with Conorp Horizon
+      <h1 className="text-2xl md:text-4xl font-semibold text-center mb-12 text-white">
+        Start Your Journey with Wiseten Horizon
       </h1>
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mb-12 justify-items-center">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mb-12 justify-items-center text-white">
         {properties.map((property, index) => (
           <PropertyCard key={index} {...property} />
         ))}
       </div>
       <div className="flex justify-center">
-        <button className="bg-green-900 text-white px-6 py-2 rounded-md">Contact Us Now</button>
+        <Link href="/contact-us" className="bg-green-900 text-white px-6 py-2 rounded-md">Contact Us Now</Link>
       </div>
     </div>
   );

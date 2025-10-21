@@ -1,24 +1,25 @@
 import TitleHeader from "../components/TitleHeader";
 import bgImg from "@/app/assets/img/image 56 1.jpg";
-import ConorpFAQ from "./ConorpFAQ";
-import ConorpFinancialProducts from "./ConorpFinancialProduct";
+import WisetenFAQ from "./WisetenFAQ";
+import WisetenFinancialProducts from "./WisetenFinancialProduct";
 import ReferralProgram from "./ReferralProgram";
 import HowitWorks from "./HowitWorks";
+import GuestLayout from "../components/layouts/guest-layouts";
 
 
 const Home = () => {
   return (
-    <div className="w-full">
+    <GuestLayout>
         <TitleHeader 
           paragraph="INVESTING IN TODAY TO BUILD A BETTER TOMORROW"
           backgroundImage={bgImg}
           title="HOW IT WORKS"
         />
-        <ConorpFAQ />
-        <ConorpFinancialProducts />
+        <WisetenFAQ />
+        <WisetenFinancialProducts />
         <ReferralProgram />
         <HowitWorks />
-    </div>
+    </GuestLayout>
   );
 }
 

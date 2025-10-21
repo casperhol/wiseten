@@ -15,10 +15,10 @@ const OurGoals: React.FC = () => {
                         Innovation in Commercial Financing Solutions
                     </h2>
                     <p className="text-sm md:text-base leading-relaxed">
-                        Conorp Horizon Trust has built a reputation for providing innovative financing 
+                        Wiseten Horizon Trust has built a reputation for providing innovative financing 
                         for commercial and residential properties in major high-growth centres across North 
                         America, Australia, New Zealand and Europe. We have earned the trust of investors, 
-                        including some of Canada’s largest pension funds, by applying prudent risk management 
+                        including some of Canada&apos;s largest pension funds, by applying prudent risk management 
                         and rigorous institutional-grade underwriting to generate attractive yields and stable 
                         sources of income.
                     </p>

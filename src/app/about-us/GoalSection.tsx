@@ -36,16 +36,16 @@ const GoalsSection: React.FC = () => {
       <div className="py-10 px-5 md:px-20">
         <h2 className="text-3xl font-bold mb-6">OUR GOALS</h2>
         <p className="mb-6">
-          At Conorp Horizon Trust, our goal is to inspire and empower our members to reach their financial ambitions. Alternative investments, especially in commercial and residential real estate, have historically been an effective way to grow wealth, but they were often reserved for a small group of people.
+          At Wiseten Horizon Trust, our goal is to inspire and empower our members to reach their financial ambitions. Alternative investments, especially in commercial and residential real estate, have historically been an effective way to grow wealth, but they were often reserved for a small group of people.
         </p>
         <p className="font-semibold mb-4">
-          We’re here to change that.
+          We&apos;re here to change that.
         </p>
         <p className="mb-6">
           Our platform gives you access to a carefully selected marketplace of private market investment opportunities in commercial real estate. Since 2012, we&apos;ve helped tens of thousands of investors discover opportunities that align with their financial goals, with billions invested in over 3100+ projects.
         </p>
         <p>
-          But we don’t stop at offering access. We provide advanced tools, research, and insights to help investors confidently explore these exclusive opportunities. We&apos;re dedicated to delivering an exceptional experience for our members every step of the way.
+          But we don&apos;t stop at offering access. We provide advanced tools, research, and insights to help investors confidently explore these exclusive opportunities. We&apos;re dedicated to delivering an exceptional experience for our members every step of the way.
         </p>
       </div>
 

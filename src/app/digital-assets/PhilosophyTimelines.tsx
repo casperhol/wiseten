@@ -26,8 +26,8 @@ const values = [
 const PhilosophyTimeline: FC = () => {
   return (
     <div className="max-w-5xl mx-auto px-4 py-12">
-      <h2 className="text-2xl md:text-xl font-semibold mb-8 text-center text-gray-900">
-        Conorp Horizon Investments Philosophy
+      <h2 className="text-2xl md:text-xl font-semibold mb-8 text-center text-white">
+        Wiseten Horizon Investments Philosophy
       </h2>
 
       <div className="relative border-l-2 border-gray-400 pl-10 space-y-8">
@@ -37,7 +37,7 @@ const PhilosophyTimeline: FC = () => {
             <div className="bg-[#FFC116] w-6 h-6 rounded-full translate-y-3 -translate-x-[53px] space-y-5"></div>
 
             <div>
-              <p className="text-sm text-gray-800 leading-relaxed">{value.description}</p>
+              <p className="text-sm text-[#FFF] leading-relaxed">{value.description}</p>
             </div>
           </div>
         ))}

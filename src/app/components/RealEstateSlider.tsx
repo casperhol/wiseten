@@ -5,6 +5,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowLeft, faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import Image1 from "@/app/assets/img/Image-36-1.png";
 import Image2 from "@/app/assets/img/Image-36-2.jpg";
+import Link from "next/link";
 
 const slides = [
   {
@@ -12,7 +13,7 @@ const slides = [
     title: "",
     heading:
       "Invest in real estate online,\n without the hassle or \n expense of managing \n property",
-    description: `Conorp Horizon Trust simplifies residential real estate \n investing through the use of cutting-edge technology \n giving Members access to residential real estate \n opportunities with the potential to generate income.`,
+    description: `Wiseten Horizon Trust simplifies residential real estate \n investing through the use of cutting-edge technology \n giving Members access to residential real estate \n opportunities with the potential to generate income.`,
   },
   {
     image: Image2,
@@ -58,9 +59,9 @@ const RealEstateSlider: FC = () => {
           {currentSlide.description}
         </p>
 
-        <button className="bg-white text-[#013220] px-6 py-3 rounded-md text-sm font-semibold hover:bg-gray-100 transition">
+        <Link href="/about-us" className="bg-white text-[#013220] px-6 py-3 rounded-md text-sm font-semibold hover:bg-gray-100 transition">
           Learn More
-        </button>
+        </Link>
       </div>
 
       {/* Arrow Buttons */}

@@ -10,7 +10,7 @@ const RealEstateSection = () => {
             Invest in real estate online, without the hassle or expense of managing property
           </h2>
           <p className="text-gray-700 text-sm sm:text-base pb-4">
-            Conorp Horizon Trust simplifies residential real estate investing through the use of
+            Wiseten Horizon Trust simplifies residential real estate investing through the use of
             cutting-edge technology giving Members access to residential real estate opportunities
             with the potential to generate income.
           </p>
