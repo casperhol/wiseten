@@ -1,5 +1,5 @@
 import TitleHeader from "../components/TitleHeader";
-import bgImg from "@/app/assets/img/image 56 1.jpg";
+import bgImg from "../../../public/images/image 56 1.jpg";
 import WisetenFAQ from "./WisetenFAQ";
 import WisetenFinancialProducts from "./WisetenFinancialProduct";
 import ReferralProgram from "./ReferralProgram";

@@ -1,10 +1,10 @@
 "use client";
 import { useState } from 'react';
 import ImageComponent from '../components/formFields/ImageComponent';
-import mainImg from "@/app/assets/img/Image-11-1.jpg";
-import topviewImg from "@/app/assets/img/Image-8-1.jpg";
-import interiorviewImg from "@/app/assets/img/Image-13-1.jpg";
-import housepoolImg from "@/app/assets/img/Image-5-1.jpg";
+import mainImg from "../../../public/images/Image-11-1.jpg";
+import topviewImg from "../../../public/images/Image-8-1.jpg";
+import interiorviewImg from "../../../public/images/Image-13-1.jpg";
+import housepoolImg from "../../../public/images/Image-5-1.jpg";
 
 
 

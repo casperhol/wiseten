@@ -1,6 +1,6 @@
 import React from 'react';
-import riskReturnImg from "@/app/assets/img/image 46 1.jpg";
-import groupImg from "@/app/assets/img/Image 24 1.jpg";
+import riskReturnImg from "../../../public/images/image 46 1.jpg";
+import groupImg from "../../../public/images/Image 24 1.jpg";
 import ImageComponent from '../components/formFields/ImageComponent';
 
 const HowitWorks: React.FC = () => {

@@ -1,8 +1,8 @@
 import ImageComponent from "../components/formFields/ImageComponent";
-import teamImg from "@/app/assets/img/Image 28 Edited 1.jpg";
-import buildingImg2 from "@/app/assets/img/image 56 1.jpg";
-import buildingImg3 from "@/app/assets/img/image 57 1.jpg";
-import buildingImg from "@/app/assets/img/image 58 1.jpg";
+import teamImg from "../../../public/images/Image 28 Edited 1.jpg";
+import buildingImg2 from "../../../public/images/image 56 1.jpg";
+import buildingImg3 from "../../../public/images/image 57 1.jpg";
+import buildingImg from "../../../public/images/image 58 1.jpg";
 import { StaticImageData } from "next/image";
 
 interface Grid {

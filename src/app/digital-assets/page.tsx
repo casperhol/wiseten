@@ -1,5 +1,5 @@
 import TitleHeader from "../components/TitleHeader";
-import bgImg from "@/app/assets/img/Image 17 1.jpg";
+import bgImg from "../../../public/images/Image 17 1.jpg";
 import DigitalAssetsData from "./DigitalAssetsData";
 import DigitalAssetsAdvantage from "./DigitalAssetsAdvantage";
 import WisetenMissions from "./WisetenMissions";

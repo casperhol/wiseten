@@ -1,5 +1,5 @@
 import ImageComponent from "@/app/components/formFields/ImageComponent";
-import OurstrategiesImg from "@/app/assets/img/Image-19-1.jpg";
+import OurstrategiesImg from "../../../public/images/Image-19-1.jpg";
 
 const OurStrategies = () => {
   return (

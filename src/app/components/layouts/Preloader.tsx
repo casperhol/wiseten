@@ -1,7 +1,7 @@
 "use client";
 import { useEffect, useState, ReactNode } from "react";
 import ImageComponent from '@/app/components/formFields/ImageComponent';
-import loaderImg from "@/app/assets/img/loader-1.gif";
+import loaderImg from "../../../../public/images/loader-1.gif";
 
 
 
@@ -28,7 +28,7 @@ const Preloader = ({ children }: PreloaderProps) => {
 
   return isLoading ? (
     <div className="fixed inset-0 flex flex-col items-center justify-center z-50 bg-[#58786cff]">
-      <ImageComponent src={loaderImg} alt="Loading..." width={100} height={100} className="" />
+      <ImageComponent src={loaderImg} alt="Loading..." width={100} height={100} className="" unoptimized={true}/>
       <p className="mt-2 text-white animate-pulse text-2xl">Loading...</p>
     </div>
   ) : (

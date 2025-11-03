@@ -7,9 +7,10 @@ interface ImageComponentProps {
   width: number;
   height: number;
   className?: string;
+  unoptimized?: boolean;
 }
 
-const ImageComponent: React.FC<ImageComponentProps> = ({ src, alt, width, height, className }) => {
+const ImageComponent: React.FC<ImageComponentProps> = ({ src, alt, width, height, className, unoptimized=false }) => {
   return (
     <div className={`relative ${className || ''}`}>
       <Image 
@@ -18,6 +19,7 @@ const ImageComponent: React.FC<ImageComponentProps> = ({ src, alt, width, height
         width={width}
         height={height}
         className={className}
+        unoptimized={unoptimized}
       />
     </div>
   );

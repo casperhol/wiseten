@@ -1,11 +1,11 @@
 import { StaticImageData } from "next/image";
 import ImageComponent from "@/app/components/formFields/ImageComponent";
-import Image1 from "@/app/assets/img/Image-30-1.jpg"; 
-import Image2 from "@/app/assets/img/Image-13-1.jpg"; 
-import Image3 from "@/app/assets/img/Image-9-1.jpg";  
-import Image4 from "@/app/assets/img/Image-11-1.jpg";
-import Image5 from "@/app/assets/img/Image-14-1.jpg"; 
-import Image6 from "@/app/assets/img/Image-15-1.jpg"; 
+import Image1 from "../../../public/images/Image-30-1.jpg"; 
+import Image2 from "../../../public/images/Image-13-1.jpg"; 
+import Image3 from "../../../public/images/Image-9-1.jpg";  
+import Image4 from "../../../public/images/Image-11-1.jpg";
+import Image5 from "../../../public/images/Image-14-1.jpg"; 
+import Image6 from "../../../public/images/Image-15-1.jpg"; 
 
 interface RealEstateImage {
   src: string | StaticImageData;

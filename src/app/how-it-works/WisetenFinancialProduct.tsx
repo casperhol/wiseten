@@ -1,7 +1,7 @@
 import ImageComponent from "../components/formFields/ImageComponent";
-import apartmentImg from "@/app/assets/img/Image 29 1.jpg";
-import bottomImg from "@/app/assets/img/Image 17 1.jpg";
-import piechartImg from "@/app/assets/img/pie chart 2 1.jpg";
+import apartmentImg from "../../../public/images/Image 29 1.jpg";
+import bottomImg from "../../../public/images/Image 17 1.jpg";
+import piechartImg from "../../../public/images/pie chart 2 1.jpg";
 
 
 const WisetenFinancialProducts = () => {

@@ -1,7 +1,7 @@
 import React from "react";
-import achieversImg from "@/app/assets/img/Rectangle 134.jpg";
-import innovatorsImg from "@/app/assets/img/Rectangle 136.jpg";
-import visionariesImg from "@/app/assets/img/Rectangle 138.jpg";
+import achieversImg from "../../../public/images/Rectangle 134.jpg";
+import innovatorsImg from "../../../public/images/Rectangle 136.jpg";
+import visionariesImg from "../../../public/images/Rectangle 138.jpg";
 import ImageComponent from "../components/formFields/ImageComponent";
 
 

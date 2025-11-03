@@ -1,7 +1,7 @@
 import React from 'react';
-import graphImage from "@/app/assets/img/image 47 1.jpg";
-import graphImg from "@/app/assets/img/image 53 1.jpg";
-import buildingImg from "@/app/assets/img/Image 29 1.jpg";
+import graphImage from "../../../public/images/image 47 1.jpg";
+import graphImg from "../../../public/images/image 53 1.jpg";
+import buildingImg from "../../../public/images/Image 29 1.jpg";
 import ImageComponent from '../components/formFields/ImageComponent';
 
 const OurGoals: React.FC = () => {

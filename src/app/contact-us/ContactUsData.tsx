@@ -44,7 +44,7 @@ const ContactUsData = () => {
             </div>
             <div>
               <p className="font-semibold">Location</p>
-              <p className="text-sm">No 4 sample Street Lagos</p>
+              <p className="text-sm">84 Cornwall road, Cheam, Sutton, London, Unnited kingdom, SM2 6DS.</p>
             </div>
           </div>
         </div>
