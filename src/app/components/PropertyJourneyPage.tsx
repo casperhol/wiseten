@@ -1,9 +1,9 @@
 import React from "react";
 import { StaticImageData } from "next/image";
 import ImageComponent from "./formFields/ImageComponent";
-import Image1 from "@/app/assets/img/Image-1-10.jpg";
-import Image2 from "@/app/assets/img/Image-5-1.jpg";
-import Image3 from "@/app/assets/img/Image-11-3.jpg";
+import Image1 from "../../../public/images/Image-1-10.jpg";
+import Image2 from "../../../public/images/Image-5-1.jpg";
+import Image3 from "../../../public/images/Image-11-3.jpg";
 import Link from "next/link";
 
 
@@ -20,22 +20,22 @@ const properties: Property[] = [
     title: "REAL \\n ESTATE",
     image: Image1,
     alt: "Real Estate",
-    main: "Ready to find your perfect property?",
-    description: "Start Your Journey today and let us help you find the perfect property that suits your needs.",
+    main: "Benefit of REIT?",
+    description: "Real estate builds wealth through appreciation and rental income.",
   },
   {
     title: "INFRASTRUCTURE",
     image: Image2,
     alt: "Infrastructure",
-    main: "Ready to find your perfect property?",
-    description: "Start Your Journey today and let us help you find the perfect property that suits your needs.",
+    main: "Benefits of Infrastructure?",
+    description: "Infrastructure provides stable, long-term returns from essential public assets.",
   },
   {
     title: "DIGITAL \\n ASSETS",
     image: Image3,
     alt: "Digital Assets",
-    main: "Ready to find your perfect property?",
-    description: "Start Your Journey today and let us help you find the perfect property that suits your needs.",
+    main: "Benefits of Digital Assets?",
+    description: "Digital assets offer high growth potential in the emerging tech economy.",
   },
 ];
 

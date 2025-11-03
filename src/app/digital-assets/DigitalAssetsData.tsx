@@ -1,5 +1,5 @@
 import React from "react";
-import achieversImg from "@/app/assets/img/im 11 1.jpg";
+import achieversImg from "../../../public/images/im 11 1.jpg";
 import ImageComponent from "../components/formFields/ImageComponent";
 
 

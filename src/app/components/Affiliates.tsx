@@ -1,7 +1,7 @@
 
 import React from 'react';
 import ImageComponent from "./formFields/ImageComponent";
-import affiliateImg from "@/app/assets/img/image-39-1.jpg";
+import affiliateImg from "../../../public/images/image-39-1.jpg";
 
 const Affiliates: React.FC = () => {
   return (

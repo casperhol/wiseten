@@ -1,10 +1,10 @@
 "use client";
 import { StaticImageData } from "next/image";
 import ImageComponent from "./formFields/ImageComponent";
-import Image1 from "@/app/assets/img/Image-11-1.jpg";
-import Image2 from "@/app/assets/img/Image-1-10.jpg";
-import Image3 from "@/app/assets/img/Image-21-1.jpg";
-import Image4 from "@/app/assets/img/Image-31-1.jpg";
+import Image1 from "../../../public/images/Image-11-1.jpg";
+import Image2 from "../../../public/images/Image-1-10.jpg";
+import Image3 from "../../../public/images/Image-21-1.jpg";
+import Image4 from "../../../public/images/Image-31-1.jpg";
 
 interface Feature {
   title: string;

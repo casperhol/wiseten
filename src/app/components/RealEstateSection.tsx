@@ -1,5 +1,5 @@
 import ImageComponent from "./formFields/ImageComponent";
-import sectionImg from "@/app/assets/img/Image-11-0.jpg";
+import sectionImg from "../../../public/images/Image-11-0.jpg";
 
 const RealEstateSection = () => {
   return (

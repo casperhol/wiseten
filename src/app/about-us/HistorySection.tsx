@@ -1,9 +1,9 @@
 import ImageComponent from "../components/formFields/ImageComponent";
-import buildingImg from "@/app/assets/img/Image-16-1.jpg";
-import mapImg from "@/app/assets/img/image 49 1.jpg";
-import buildingImg2 from "@/app/assets/img/Image 17 1.jpg";
-import buildingImg3 from "@/app/assets/img/Image-8-1.jpg";
-import infoImg from "@/app/assets/img/Info Graphics.jpg";
+import buildingImg from "../../../public/images/Image-16-1.jpg";
+import mapImg from "../../../public/images/image 49 1.jpg";
+import buildingImg2 from "../../../public/images/Image 17 1.jpg";
+import buildingImg3 from "../../../public/images/Image-8-1.jpg";
+import infoImg from "../../../public/images/Info Graphics.jpg";
 import { StaticImageData } from "next/image";
 
 

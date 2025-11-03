@@ -3,8 +3,8 @@ import { FC, useState } from "react";
 import ImageComponent from "./formFields/ImageComponent";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowLeft, faArrowRight } from "@fortawesome/free-solid-svg-icons";
-import Image1 from "@/app/assets/img/Image-36-1.png";
-import Image2 from "@/app/assets/img/Image-36-2.jpg";
+import Image1 from "../../../public/images/slider3.png"
+import Image2 from "../../../public/images/slider2.png";
 import Link from "next/link";
 
 const slides = [
@@ -39,7 +39,7 @@ const RealEstateSlider: FC = () => {
   return (
     <section className="relative bg-[#013220] text-white px-5 py-16 md:px-10 lg:py-28 overflow-hidden transition-all duration-500 ease-in-out">
       {/* Background Overlay Image */}
-      <div className="absolute inset-0 opacity-10 z-0 transition-opacity duration-500">
+      <div className="absolute inset-0 opacity-15 z-0 transition-opacity duration-500">
         <ImageComponent
           src={currentSlide.image}
           alt="Real Estate Background"
@@ -51,7 +51,7 @@ const RealEstateSlider: FC = () => {
 
       {/* Slide Content */}
       <div className="relative z-10 max-w-4xl">
-        <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold leading-tight whitespace-pre-line mb-6">
+        <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold leading-tight whitespace-pre-line">
           {currentSlide.heading}
         </h1>
 

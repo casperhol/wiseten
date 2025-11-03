@@ -1,5 +1,5 @@
 import ImageComponent from "@/app/components/formFields/ImageComponent"; 
-import bgImg from "@/app/assets/img/BG 2 1 (1).jpg"
+import bgImg from "../../../public/images/BG 2 1 (1).jpg"
 
 const AboutUsHead = () => {
   return (
