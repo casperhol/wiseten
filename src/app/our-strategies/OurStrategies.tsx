@@ -23,7 +23,7 @@ const OurStrategies = () => {
               <p className="text-sm text-gray-500">Completed Project.</p>
             </div>
             <div>
-              <p className="text-2xl font-bold">780+ <span className="text-base">Billion.</span></p>
+              <p className="text-2xl font-bold">780+ <span className="text-base">Million.</span></p>
               <p className="text-sm text-gray-500">Total Portfolio Valued.</p>
             </div>
             <div>
