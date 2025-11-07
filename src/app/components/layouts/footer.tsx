@@ -37,7 +37,7 @@ const Footer = () => {
             <Link href="https://www.instagram.com/wiseten_horizon?igsh=MWZxam9hMGlyYTVyMQ%3D%3D&utm_source=qr" target="_blank" aria-label="Instagram">
               <FontAwesomeIcon icon={faInstagram} className="text-pink-500 hover:text-pink-700" />
             </Link>
-            <Link href="#" aria-label="LinkedIn">
+            <Link href="https://www.linkedin.com/company/wiseten-horizon/posts/?feedView=all" target="_blank" aria-label="LinkedIn">
               <FontAwesomeIcon icon={faLinkedin} className="text-black hover:text-gray-700" />
             </Link>
             <Link href="#" aria-label="Telegram">
