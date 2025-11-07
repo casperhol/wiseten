@@ -34,7 +34,7 @@ const ContactUsData = () => {
             </div>
             <div>
               <p className="font-semibold">E-mail Address</p>
-              <p className="text-sm">wisetenenhorizon@gmail.com</p>
+              <p className="text-sm">support@@wiseten.com</p>
             </div>
           </div>
 
@@ -42,43 +42,49 @@ const ContactUsData = () => {
             <div className="bg-[#FFC116] text-white p-4 rounded-full">
               <FontAwesomeIcon icon={faMapMarkerAlt} className="h-5 w-5" />
             </div>
-            <div>
-              <p className="font-semibold">Location</p>
-              <p className="text-sm">84 Cornwall road, Cheam, Sutton, London, Unnited kingdom, SM2 6DS.</p>
-            </div>
+            
           </div>
         </div>
       </div>
 
       {/* Right Side - Form */}
       <div className="w-full md:w-2/2 bg-[#F5F5F5] p-10">
-        <h2 className="text-lg font-semibold mb-6">We want to hear from you </h2>
+        <h2 className="text-lg font-semibold mb-6 text-black">We want to hear from you </h2>
 
         <form className="space-y-6">
-          <div className="flex flex-col md:flex-row gap-4">
-            <input
-              type="text"
-              placeholder="Your Name"
-              className="w-full p-3 border border-gray-300 rounded"
-            />
-            <input
-              type="email"
-              placeholder="E-mail Address"
-              className="w-full p-3 border border-gray-300 rounded"
-            />
+          <div className="gap-4">
+            <div>
+              <label htmlFor="name" className="text-black">Full Name</label>
+              <input
+                type="text"
+                placeholder="Your Name"
+                className="w-full p-3 border border-gray-300 rounded"
+              />
+            </div>
+            <div>
+              <label htmlFor="email" className="text-black">Email Address</label>
+              <input
+                type="email"
+                placeholder="E-mail Address"
+                className="w-full p-3 border border-gray-300 rounded"
+              />
+            </div>
+            <div>
+              <label htmlFor="subject" className="text-black">Subject</label>
+              <input
+                type="text"
+                placeholder="Subject"
+                className="w-full p-3 border border-gray-300 rounded"
+              />
+            </div>
+            <div>
+              <label htmlFor="message" className="text-black">Message</label>
+              <textarea
+                placeholder="Your Message"
+                className="w-full p-3 border border-gray-300 rounded h-40 resize-none"
+              ></textarea>
+            </div>
           </div>
-
-          <input
-            type="text"
-            placeholder="Subject"
-            className="w-full p-3 border border-gray-300 rounded"
-          />
-
-          <textarea
-            placeholder="Your Message"
-            className="w-full p-3 border border-gray-300 rounded h-40 resize-none"
-          ></textarea>
-
           <button
             type="submit"
             className="bg-green-950 text-white px-6 py-3 rounded shadow hover:bg-green-900"
