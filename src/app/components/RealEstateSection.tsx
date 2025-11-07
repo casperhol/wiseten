@@ -37,7 +37,7 @@ const RealEstateSection = () => {
         </div>
         <div className="bg-white text-green-900 py-6 rounded-2xl shadow-md">
           <p className="text-3xl font-bold">
-            780+ <span className="text-base font-normal">Billion.</span>
+            780+ <span className="text-base font-normal">Million.</span>
           </p>
           <p className="mt-1 text-sm sm:text-base">Projects done.</p>
         </div>
