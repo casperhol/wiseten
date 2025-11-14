@@ -24,7 +24,7 @@ const ContactUsData = () => {
             </div>
             <div>
               <p className="font-semibold">Phone Number</p>
-              <p className="text-sm">090 765 585 75</p>
+              <p className="text-sm">+1 704 296 8392</p>
             </div>
           </div>
 
@@ -34,7 +34,7 @@ const ContactUsData = () => {
             </div>
             <div>
               <p className="font-semibold">E-mail Address</p>
-              <p className="text-sm">support@@wiseten.com</p>
+              <p className="text-sm">support@wiseten.com</p>
             </div>
           </div>
 
