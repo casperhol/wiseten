@@ -21,19 +21,19 @@ const WisetenFinancialProducts = () => {
           <ul className="space-y-3">
             <li className="flex items-center text-black">
               <span className="w-4 h-4 bg-cyan-700 rounded-full mr-3"></span>
-              <span>Basic Equity (Long/Short Asset)</span>
+              <span>Public Traded (Retail/Institutional Asset)</span>
             </li>
             <li className="flex items-center text-black">
               <span className="w-4 h-4 bg-pink-600 rounded-full mr-3"></span>
-              <span>Dual Arbitrage (Residential and Commercial Assets)</span>
+              <span>ETF Mutual Funds (Stock Brokerage Assets)</span>
             </li>
             <li className="flex items-center text-black">
               <span className="w-4 h-4 bg-blue-400 rounded-full mr-3"></span>
-              <span>Diversified Products (Digital Portfolio Assets)</span>
+              <span>Private Traded (Private Placement Assets)</span>
             </li>
             <li className="flex items-center text-black">
               <span className="w-4 h-4 bg-yellow-400 rounded-full mr-3"></span>
-              <span>Macro Products (Global Portfolio Assets)</span>
+              <span>Derivatives Funds (Sophisticated/Institutional Assets)</span>
             </li>
           </ul>
         </div>
