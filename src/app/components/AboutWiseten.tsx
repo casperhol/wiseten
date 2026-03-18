@@ -46,15 +46,15 @@ const features: Feature[] = [
 
 const AboutWiseten = () => {
   return (
-    <section className="bg-teal-100 py-16 px-4 md:px-12 lg:px-24">
-      <h2 className="text-3xl md:text-4xl font-semibold text-center text-gray-800 mb-12">
+    <section className="bg-teal-100 py-16 px-2 md:px-6 lg:px-12">
+      <h2 className="text-3xl md:text-4xl font-semibold text-center text-gray-800 mb-12 px-8 md:px-0">
         Why Wiseten Horizon Trust ?
       </h2>
-      <div className="grid md:grid-cols-2 gap-8 text-center px-6">
+      <div className="grid md:grid-cols-2 gap-8 text-center px-3 md:px-0">
         {features.map((feature, index) => (
           <div
             key={index}
-            className="bg-white p-6 px-12 rounded-2xl shadow-md flex flex-col justify-between h-full"
+            className="bg-white p-4 md:p-6 rounded-2xl shadow-md flex flex-col justify-between h-full"
           >
             <div>
               <h3 className="text-lg font-semibold text-gray-800 mb-4">
@@ -62,7 +62,7 @@ const AboutWiseten = () => {
               </h3>
               <p className="text-gray-600 text-sm mb-4 text-start">{feature.description}</p>
             </div>
-            <div className="w-full px-10 h-48 relative rounded-md overflow-hidden">
+            <div className="w-full md:h-100 relative rounded-md overflow-hidden">
               <ImageComponent
                 src={feature.image}
                 alt={feature.alt}
